@@ -2,62 +2,110 @@
 
 <p align="center">
 	<img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status" />
-	<img src="https://img.shields.io/badge/Platform-GitHub-blue" alt="Platform" />
-	<img src="https://img.shields.io/badge/Style-Fancy%20README-purple" alt="Style" />
+	<img src="https://img.shields.io/badge/Language-Python-blue" alt="Language" />
+	<img src="https://img.shields.io/badge/Category-Web%20Automation-red" alt="Category" />
+	<img src="https://img.shields.io/badge/License-MIT-yellow" alt="License" />
 </p>
 
 <p align="center">
-	<b>A sleek and modern GitHub README for the ShadowG project.</b><br>
-	Designed to give your repository a clean, professional, and eye-catching presentation.
+	<b>A cyber-inspired Instagram media downloader built with Python.</b><br>
+	Download public Instagram reels, posts, and media content through a simple and modular interface.
 </p>
 
 ---
 
-## ✨ Overview
+## ⚡ Overview
 
-ShadowG is presented here with a polished README template that can be adapted to showcase the project, its goals, and its future features.
+ShadowGram is a lightweight Python tool designed to download Instagram media quickly and efficiently. Built with simplicity and automation in mind, it serves as both a practical utility and a learning project for exploring web technologies, content delivery, and downloader architectures.
 
-## 🚀 Highlights
+Whether you're archiving your own content, studying media delivery mechanisms, or building automation tools, ShadowGram provides a clean foundation for future expansion.
 
-- Elegant GitHub-ready design
-- Simple and easy to customize
-- Clear sections for project growth
-- Clean formatting for better readability
+---
+
+## ✨ Features
+
+* Download Instagram reels
+* Download Instagram posts
+* Fast and lightweight operation
+* Simple command-line interface
+* Modular project structure
+* Easy to extend and customize
+
+---
 
 ## 📦 Project Structure
 
 ```text
-ShadowG/
+ShadowGram/
+├── main.py
+├── downloader.py
+├── downloads/
+├── requirements.txt
 └── README.md
 ```
 
-## 🛠️ Getting Started
+---
 
-Use this README as a foundation and update it with your project details:
+## 🚀 Installation
 
-1. Edit the project title and description.
-2. Add badges that match your stack or status.
-3. Include installation and usage instructions.
-4. Add screenshots, examples, or demos.
+Clone the repository:
 
-## 🧭 Suggested Sections
+```bash
+git clone https://github.com/yourusername/ShadowGram.git
+cd ShadowGram
+```
 
-You can expand this README with the following sections:
+Install dependencies:
 
-- Installation
-- Usage
-- Features
-- Configuration
-- Contributing
-- License
-
-## 🤝 Contributing
-
-Contributions are welcome. Fork the project, make your changes, and submit a pull request.
-
-## 📄 License
-
-Add your preferred license here to make the repository complete and ready for open-source use.
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
+## 🛠 Usage
+
+Run the application:
+
+```bash
+python main.py
+```
+
+Enter a supported Instagram URL when prompted.
+
+---
+
+## 🔮 Roadmap
+
+* GUI Version
+* Batch Downloads
+* Download History
+* Enhanced Metadata Support
+* Custom Extraction Engine
+* Improved Error Handling
+* Cyber-Themed Interface
+
+---
+
+## 🎯 Educational Value
+
+ShadowGram is intended to help developers learn about:
+
+* Python Automation
+* HTTP Requests
+* Content Delivery Networks (CDNs)
+* Web Data Extraction
+* Tool Development
+* Software Architecture
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
